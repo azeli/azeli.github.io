@@ -3,6 +3,6 @@ RewriteEngine On
 RewriteRule ^/?$ myfile.json [L]
 
 # return application/json for myfile.json
-<Files "myfile.json">
+<Files "apple-app-site-association">
    ForceType application/json
 </Files>
