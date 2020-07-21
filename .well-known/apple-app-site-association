@@ -1,9 +1,11 @@
 {
-    applinks: {
-        apps: [],
-        details: [{
-            appID: G92J989NJ6.com.digdes.ExecutiveWorkspace,
-            paths: [*]
-        }]
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "G92J989NJ6.com.digdes.ExecutiveWorkspace",
+                "paths": [ "*" ]
+            }
+        ]
     }
 }
