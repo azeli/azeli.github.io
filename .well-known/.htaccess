@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteRule ^/?$ myfile.json [L]
+RewriteRule ^/?$ apple-app-site-association [L]
 
 # return application/json for myfile.json
 <Files "apple-app-site-association">
