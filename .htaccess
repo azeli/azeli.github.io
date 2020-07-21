@@ -1,8 +1,10 @@
-RewriteEngine On
+RewriteEngine on
 
-RewriteRule ^/?$ apple-app-site-association [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 
-# return application/json for apple-app-site-association
+RewriteRule ^(.*)$ index.php/$1 [L]
+
 <Files "apple-app-site-association">
-   ForceType application/pkcs7-mime
+ForceType 'application/json'
 </Files>
