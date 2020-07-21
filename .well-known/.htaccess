@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^/?$ myfile.json [L]
+
+# return application/json for myfile.json
+<Files "myfile.json">
+   ForceType application/json
+</Files>
