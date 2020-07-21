@@ -2,7 +2,7 @@ RewriteEngine On
 
 RewriteRule ^/?$ apple-app-site-association [L]
 
-# return application/json for myfile.json
+# return application/json for apple-app-site-association
 <Files "apple-app-site-association">
    ForceType application/json
 </Files>
